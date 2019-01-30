@@ -19,7 +19,7 @@ public class TestandVerifyMancalaBuild {
 		  PlayAndBuildMancalaGame playGameMancals = new PlayAndBuildMancalaGame(null, null,"Y");
 		  playGameMancals.playMancala();
 	  }
-	  @Test
+	  /*@Test
 	  public void callPlayMancalaWithComputerComputer() throws IOException {
 		
 		  PlayAndBuildMancalaGame playGameMancals = new PlayAndBuildMancalaGame("Shashi", null,"Y");
@@ -43,7 +43,7 @@ public class TestandVerifyMancalaBuild {
 		
 		  PlayAndBuildMancalaGame playGameMancals = new PlayAndBuildMancalaGame("Shashi", "Aryan","N");
 		  playGameMancals.playMancala();
-	  }
+	  }*/
 	  @BeforeTest
 	  public void beforeTest() {
 	  }
